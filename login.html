@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        fieldset {
+          background-color: #cdd2d8;
+        }
+        
+        legend {
+          background-color: rgb(30, 106, 129);
+          color: rgb(217, 225, 227);
+          padding: 10px 10px;
+          font-size: 20px ;
+        }
+        label{
+            
+            width:150px;
+            display:inline-block;
+            
+        }
+        input {
+            font-size: 20px;
+            margin: 5px;
+            font-display:bold ;
+        }
+        h1{
+            text-align: center;
+        }
+        </style>
+</head>
+<body>
+    <h1>Welcome to <em>Siri Fashion Logo &copy;</em></h1>
+    <h2>Sign up </h2>
+    <!---creating a form --->
+    <form action ="#">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <!---Labels and input fields-->
+            <p><label> First Name  : <input name : "firstname"/></label></p>
+            <p><label> Second Name : <input name : "Secondname"/></label></p>
+            <p><label> Last Name   : <input name : "Lastname"/></label></p>
+            <p><label> Email       : <input name : "Email"/></label></p>
+            
+            <!--Gender-->
+            <p><label> Gender : <input type= "radio" name="gender" value="male" /> Male</label>
+            <label><input type= "radio" name="gender" value="female"/> Female</label></p>    
+            <!---Address -->
+            <p>
+                <label>Date of Birth : <input type="date"
+                    name="birthDate"></label>
+            </p>
+            <p><label>Address : <br/>
+                    <textarea name="address" cols="30"rows="3"></textarea>
+                </label>
+            </p>
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+ 
+        </fieldset>
+    </form>
+</body>
+</html>
