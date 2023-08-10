@@ -1,6 +1,4 @@
-- 👋 Hi, I’m @sirishanarayansa
-- 👀 I’m interested in front end development ,web application.
-- 🌱 I’m currently learning python.
+- 👋 Hi, I’m @sirisha
 
 
 <!---
